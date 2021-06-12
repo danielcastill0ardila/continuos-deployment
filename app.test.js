@@ -9,6 +9,8 @@ describe("GET /", () => {
       .expect("Content-Type", /json/)
       .expect(200);
 
-    expect(response.body).toEqual({ message: "Hello, from CD/CI pipeline" });
+    expect(response.body).toEqual({
+      message: "Hello, from CD/CI pipeline, welcome",
+    });
   });
 });
