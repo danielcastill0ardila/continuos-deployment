@@ -10,7 +10,7 @@ describe("GET /", () => {
       .expect(200);
 
     expect(response.body).toEqual({
-      message: "Hello, from CD/CI pipeline, welcome",
+      message: "Hello, from CD/CI pipeline new release, welcome",
     });
   });
 });

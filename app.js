@@ -5,7 +5,9 @@ const bodyParser = require("body-parser");
 app.use(bodyParser.urlencoded({ extended: false }));
 
 app.get("/", (req, res) => {
-  return res.send({ message: "Hello, from CD/CI pipeline, welcome" });
+  return res.send({
+    message: "Hello, from CD/CI pipeline new release, welcome",
+  });
 });
 
 module.exports = app;
