@@ -19,7 +19,7 @@ jobs:
       - name: Create CodeDeploy Deployment
         id: deploy
         run: aws deploy create-deployment \
-          --application-name application-name \
-          --deployment-group-name AppDeploymentGroupName \
+          --application-name example-cd \
+          --deployment-group-name appDeploymentGroupName \
           --deployment-config-name CodeDeployDefault.OneAtATime \
           --github-location repository=${{ github.repository }},commitId=${{ github.sha }}
