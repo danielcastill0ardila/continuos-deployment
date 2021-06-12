@@ -4,4 +4,4 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 pm2 delete all
 pm2 save --force
-pm2 start ../index.js
+pm2 start index.js
