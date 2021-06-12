@@ -18,7 +18,8 @@ jobs:
       # Step 2
       - name: Create CodeDeploy Deployment
         id: deploy
-        run: aws deploy create-deployment \
+        run: |
+          aws deploy create-deployment \
           --application-name example-cd \
           --deployment-group-name appDeploymentGroupName \
           --deployment-config-name CodeDeployDefault.OneAtATime \
