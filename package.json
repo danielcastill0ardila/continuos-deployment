@@ -1,0 +1,19 @@
+{
+  "name": "continuos-deployment",
+  "version": "1.0.0",
+  "description": "An API build for CD purposes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielcastill0ardila/continuos-deployment.git"
+  },
+  "author": "Daniel Castillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielcastill0ardila/continuos-deployment/issues"
+  },
+  "homepage": "https://github.com/danielcastill0ardila/continuos-deployment#readme"
+}
