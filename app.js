@@ -6,7 +6,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 app.get("/", (req, res) => {
   return res.send({
-    message: "Hello, from CD/CI pipeline new release, welcome",
+    message: "Hello, from CD/CI new pipeline new release, welcome",
   });
 });
 
